@@ -64,8 +64,9 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>6.0.7.Final</version>
+            <version>6.0.9.Final</version>
         </dependency>
+
         <!-- ORACLE JDBC driver, need install yourself -->
         <dependency>
             <groupId>com.oracle</groupId>
