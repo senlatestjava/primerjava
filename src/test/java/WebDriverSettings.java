@@ -3,6 +3,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 public class WebDriverSettings {
+
     public ChromeDriver driver;
 
     @BeforeTest
