@@ -158,6 +158,9 @@
                         <org.uncommons.reportng.title>Test Results</org.uncommons.reportng.title>
                     </systemPropertyVariables>
                     <properties>
+                        <properties>
+                            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                        </properties>
                         <property>
                             <name>usedefaultlisteners</name>
                             <value>false</value>
