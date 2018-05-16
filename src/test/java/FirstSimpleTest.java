@@ -1,7 +1,4 @@
 import com.page.PageYoutube;
-import com.page.WebDriverSettings;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -23,5 +20,13 @@ public class FirstSimpleTest extends WebDriverSettings {
         PageYoutube search = new PageYoutube(driver);
         search.typeSearchLine();
         search.clickSearchBtn();
+    }
+
+
+    @Test
+    public void vvodTest() {
+        int k;
+
+
     }
 }

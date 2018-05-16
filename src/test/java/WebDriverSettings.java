@@ -1,4 +1,4 @@
-package com.page;
+
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
