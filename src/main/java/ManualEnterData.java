@@ -2,6 +2,7 @@
 import com.folder.functions.*;
 import java.util.Scanner;
 
+import static com.folder.functions.FunctionsJavaTest.checkPrimeNumber;
 import static com.folder.functions.FunctionsJavaTest.dividesByTwo;
 import static com.folder.functions.FunctionsJavaTest.isPrimeNumber;
 
@@ -13,15 +14,8 @@ public class ManualEnterData {
         Scanner sc = new Scanner(System.in);
         k = sc.nextInt();
 
-            if ( k%2 == 0) {
-                System.out.println("Введено  целое число");
 
-                } else {
-
-                    System.out.println("Введено не целое число!");
-                }
-
-
+        checkPrimeNumber(k);
         isPrimeNumber(k);
         dividesByTwo(k);
 

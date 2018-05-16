@@ -3,6 +3,25 @@ package com.folder.functions;
 public class FunctionsJavaTest {
 
     //функция для определения целое/не целое число
+    public static boolean checkPrimeNumber(int k) {
+         int m=0;
+        for (int i=2; i<k; i++) {
+            if (k%i==0)
+            {
+                m++;
+            }
+        }
+        if (m==0)
+        {
+            System.out.println (k+"-is the prime number ");
+            return true;
+        }
+        else
+        {
+            System.out.println (k+"-is not prime number ");
+            return false;
+        }
+    }
 
 
     //функция для возврата true на четное и false на нечетное
@@ -22,7 +41,7 @@ public class FunctionsJavaTest {
         for (int i=2; i < k; i++) {
             if (k % i == 0 & i != 1) {
                 System.out.println("Заданное число - составное");
-                return true;
+
             }
             if (i == 1) {
                 System.out.println("Заданное число простое");
