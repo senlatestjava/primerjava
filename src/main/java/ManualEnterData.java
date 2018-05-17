@@ -16,11 +16,11 @@ public class ManualEnterData {
             dividesByTwo(k);
             checkPrimeNumber(k);
 
-            if (isPrimeNumber(k)) {
-                System.out.println("Число простое");
-            } else {
-                System.out.println("Число составное");
-            }
+                if (isPrimeNumber(k)) {
+                    System.out.println("Число простое");
+                } else {
+                    System.out.println("Число составное");
+                }
         } catch (Exception InputMismatchException) {
             System.out.println("Введено не целое число!");
         }
