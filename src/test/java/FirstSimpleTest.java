@@ -2,6 +2,8 @@ import com.page.PageYoutube;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.Scanner;
+
 public class FirstSimpleTest extends WebDriverSettings {
 
     @Test (priority = 1)
@@ -25,8 +27,7 @@ public class FirstSimpleTest extends WebDriverSettings {
 
     @Test
     public void vvodTest() {
-        int k;
-
 
     }
+
 }
