@@ -2,6 +2,12 @@ package com.folder.functions;
 
 public class FunctionsJavaTest {
 
+    public static boolean checkPalindrom(String str) {
+        StringBuilder stringBuilder = new StringBuilder(str);
+        String inversedString = stringBuilder.reverse().toString();
+       return inversedString.equalsIgnoreCase(str);
+    }
+
     //Высчитывание Наибольший общий делитель NOD
     public static int gcd(int k, int s) {
         if (s==0) return k;
