@@ -2,6 +2,19 @@ package com.folder.functions;
 
 public class FunctionsJavaTest {
 
+    //Высчитывание Наибольший общий делитель NOD
+    public static int gcd(int k, int s) {
+        if (s==0) return k;
+        return gcd(s,k%s);
+    }
+
+    //Высчитывание Наименьшее общее кратное NOK
+    public static int lcm(int k, int s) {
+        return k / gcd(k,s) * s;
+    }
+
+
+
     //функция для определения целое/не целое число
     public static boolean checkPrimeNumber(int k) {
 
@@ -12,7 +25,7 @@ public class FunctionsJavaTest {
         }
         else
         {
-            System.out.println ("Число не целое ! ");
+            System.out.println ("Число не целое число! ");
             return false;
         }
     }

@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import static com.folder.functions.FunctionsJavaTest.checkPrimeNumber;
@@ -21,9 +22,8 @@ public class ManualEnterData {
                 } else {
                     System.out.println("Число составное");
                 }
-        } catch (Exception InputMismatchException) {
+        } catch (InputMismatchException e) {
             System.out.println("Введено не целое число!");
         }
     }
-
 }
