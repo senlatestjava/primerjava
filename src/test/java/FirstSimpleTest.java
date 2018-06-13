@@ -11,7 +11,7 @@ public class FirstSimpleTest extends WebDriverSettings {
         driver.get("http://www.youtube.com");
 
         if (driver.getTitle().equals("YouTube")) {
-            System.out.println("Verno");
+            System.out.println("!!!!Verno!!!!!");
         } else {
             Assert.fail("Ne verno");
         }
