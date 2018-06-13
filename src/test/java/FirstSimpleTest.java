@@ -25,9 +25,6 @@ public class FirstSimpleTest extends WebDriverSettings {
     }
 
 
-    @Test
-    public void vvodTest() {
-
-    }
+    
 
 }
