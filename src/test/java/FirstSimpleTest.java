@@ -15,6 +15,8 @@ public class FirstSimpleTest extends WebDriverSettings {
         } else {
             Assert.fail("Ne verno");
         }
+        
+        System.out.println("проверка кодировки");
     }
 
     @Test (priority = 2)
